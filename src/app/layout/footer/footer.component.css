@@ -1,0 +1,26 @@
+.row {
+  text-align: center;
+}
+
+.load a {
+  font: 13px arial;
+  color: #929292;
+  text-decoration: none;
+}
+
+.insta {
+  padding: 35px 0 15px 0;
+}
+
+.insta a {
+  color: #3F729B;
+  text-decoration: none;
+  font: 12px arial;
+  font-weight: 600;
+
+}
+
+.copy {
+  font: 12px arial;
+  color: #444444;
+}

@@ -7,6 +7,7 @@ import { NavComponent } from './layout/nav/nav.component';
 import { SearchComponent } from './layout/search/search.component';
 import { PromoComponent } from './promo/promo.component';
 import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ScrollToTopComponent } from './scroll-to-top/scroll-to-top.component';
     NavComponent,
     SearchComponent,
     PromoComponent,
-    ScrollToTopComponent
+    ScrollToTopComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
