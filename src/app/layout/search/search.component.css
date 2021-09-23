@@ -1,0 +1,43 @@
+.d-flex {
+  width: calc(100% - 112.5px);
+  float: left;
+  margin-right: 5px;
+}
+
+.form-control {
+  border-color: rgb(225, 225, 225);
+  font-size: 13px;
+}
+
+.btn-success {
+  background-color: #69A74E;
+  border-color: #69A74E;
+}
+
+.btn-outline-success {
+  border: 0;
+  color: rgb(150, 150, 150);
+}
+
+.btn-outline-success:hover {
+  background-color: #FFF;
+}
+
+.btn-close {
+  float: right;
+  font-size: 10px;
+  top: 0;
+}
+
+.alert {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #468847;
+  background-color: #e3ffd7;
+  border-color: #d0dbcc;
+
+}
+
+.hiden-alert {
+  display: none;
+}

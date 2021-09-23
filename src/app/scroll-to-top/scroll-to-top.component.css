@@ -1,0 +1,14 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 30px;
+  font-weight: 800;
+  border: 2px solid #595959;
+  border-radius: 60%;
+  padding: 0 7.5px;
+}
+
+.scroll-to-top a {
+  color: #595959;
+}

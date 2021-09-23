@@ -1,0 +1,49 @@
+header {
+  padding: 10px 0;
+}
+
+header a {
+  width: auto;
+  text-decoration: none;
+  margin-left: 26px;
+  margin-right: 26px;
+  position: relative;
+}
+
+.lg {
+  font-size: 42px;
+  color: #ff3375;
+  font-weight: 500;
+}
+
+.icon-header {
+  font-size: 27px;
+  color: rgb(182, 182, 182);
+  padding-top: 15px;
+}
+
+.icon-circle {
+  border: 2px solid rgb(182, 182, 182);
+  border-radius: 50%;
+  padding: 6px 11px;
+  text-align: center;
+}
+
+.hiden-sub-nav {
+  display: none;
+}
+
+.show-sub-nav {
+  display: block;
+  position: absolute;
+  background-color: rgb(80, 80, 80);
+  z-index: 999;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  width: auto;
+  top: 75px;
+  right: 855px;
+  padding: 0;
+  margin: 0;
+}
