@@ -10,8 +10,8 @@
 }
 
 .btn-success {
-  background-color: #69A74E;
-  border-color: #69A74E;
+  background-color: #69a74e;
+  border-color: #69a74e;
 }
 
 .btn-outline-success {
@@ -20,7 +20,7 @@
 }
 
 .btn-outline-success:hover {
-  background-color: #FFF;
+  background-color: #fff;
 }
 
 .btn-close {
@@ -35,9 +35,14 @@
   color: #468847;
   background-color: #e3ffd7;
   border-color: #d0dbcc;
-
 }
 
 .hiden-alert {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 0.5s, opacity 0.5s linear;
+}
+
+.hiden-alert-display-none {
   display: none;
 }
