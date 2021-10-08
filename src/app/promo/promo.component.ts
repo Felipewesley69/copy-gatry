@@ -11,6 +11,13 @@ export class PromoComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
+  timePosted: any = '';
+  now: any = '';
+
+  timePost() {
+    return new Date().toDateString()
+  }
   products: any[] = [
     {
       linkImg: 'https://cdn.gatry.com/gatry-static/promocao/imagem/d18ff5c0d30722d40937e7c8d30f569f.jpg',
@@ -19,7 +26,7 @@ export class PromoComponent implements OnInit {
       fistComent: '40 conto uma chinela Olympikus',
       totalComents: 10,
       store: 'Amazon',
-      timePost: '27 minutos'
+      timePost: this.timePost()
     },
     {
       linkImg: 'https://cdn.gatry.com/gatry-static/promocao/imagem/447ab8012d4b41f97c987de4340e331c.jpg',
