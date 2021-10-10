@@ -1,0 +1,12 @@
+.store {
+  float: left;
+  color: #1796d0;
+  font: 12px arial;
+  margin-left: 30px;
+  border: 1px solid #1796d0;
+  padding: 3px 10px;
+  border-radius: 5px;
+}
+a {
+  text-decoration: none;
+}

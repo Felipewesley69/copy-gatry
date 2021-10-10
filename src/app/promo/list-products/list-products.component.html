@@ -24,11 +24,13 @@
       <span class="coments">
         <span>{{ p.totalComents }} </span> <a href="#">Comments</a></span
       >
-      <span class="store"
-        ><a href="#"
-          >Ir para <span>{{ p.store }}</span></a
-        ></span
-      >
+
+      <app-button
+        [store]="p.store"
+        [product]="p.titleProduct"
+        (buy)="feedbackBuy($event)"
+      ></app-button>
+
       <span class="details"
         ><a href="#"><i class="bi bi-three-dots"></i></a
       ></span>

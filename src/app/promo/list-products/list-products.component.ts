@@ -11,4 +11,8 @@ export class ListProductsComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  feedbackBuy(product) {
+    alert(`Parabéns, você comprou um(a) ${product}`);
+  }
 }
